@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+display: flex;
+justify-content: space-around;
+padding-top: 40px;
+/* padding-left: 20px; */
+}
+.h-left-side{
+    width: 40%;
+}
+.h-left-side img{
+    width: 20%;
+}
+.h-left-side button{
+    background-color: hsl(322, 100%, 66%);
+padding: 10px 25px 5px 25px;
+border-radius: 20px;
+}
+.h-right-side{
+    width: 50%;
+}
+.h-right-side button{
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  width: 20%;
+  padding: auto;
+  display: flex;
+  justify-self: right;
+  justify-content:right;
+  /* text-align: right; */
+  /* align-self: flex-end; */
+}
+.h-right-side img{
+    width: 90%;
+}
+main{
+    margin-top: 60px;
+}
+/* .grow-t{
+    display: flex;
+    width: 80%;
+    /* margin-top: 50px; */
+   /* margin: auto;
+    padding: 0 30px 0 30px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px;
+} */
+.grow-t-left{
+    width: 50%;
+}
+.grow-t-right{
+    width: 50%;
+}
+.grow-t-right img{
+    width: 100%;
+}
+.flowing, .grow-t, .your-users{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.flowing-left, .your-users-right{
+    width: 40%;
+}
+.flowing-left img, .your-users-right img{
+    width: 100%;
+}
+.your-users-right img{
+    padding-top: 30px;
+}
+.flowing-right, .your-users-left{
+    width: 50%;
+}
