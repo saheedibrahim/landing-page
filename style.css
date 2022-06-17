@@ -21,7 +21,7 @@ padding-top: 40px; */
   padding-top: 40px;
   /* padding-left: 20px; */
 }
-.header img {
+.header header img {
   width: 100px;
 }
 .header header button {
@@ -169,29 +169,41 @@ main {
 .foot_2 ul {
 }
 @media (max-width: 575px) {
+  .header{
+    background-image: url(./images/bg-hero-mobile.svg);
+    padding: 0;
+  }
  
-  .first-sect,
+  .header .first-sect,
   .flowing,
   .grow-t,
   .your-users {
     display: block;
-    margin: auto;
-    /* padding: 0; */
-    /* width: 90%; */
+    width: 90%;
   } 
-  .h-left-side,
-  .h-right-side,
+  .first-sect .h-left-side,
+  .first-sect .h-right-side,
   .grow-t-left,
+  .grow-t-right,
   .flowing-right,
-  .your-users-left {
+  .flowing-left,
+  .your-users-left,
+  .your-users-right  {
     width: 100%;
     text-align: center;
   }
   .h-left-side{
     margin-bottom: 20px;
   }
-  .flowing-left,
-  .your-users-right {
-    width: 100%;
+  .grow-t-right{
+    margin: auto;
+  }
+  .your-users{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ready {
+    width: 84%;
+    right: 8%;
   }
 }
