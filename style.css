@@ -17,7 +17,7 @@ body{
   background-color: hsl(193, 100%, 96%);
   padding: 0 50px 0 50px;
 }
-h1, h2{
+h1, h2, h3{
   
 font-family: 'Poppins', sans-serif;
 }
@@ -54,8 +54,7 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
 }
 .h-left-side p {
-  /* font-size: 20px; */
-  line-height: 25px;
+  /* line-height: 25px; */
   margin-bottom: 40px;
 }
 .h-left-side button,
@@ -104,7 +103,6 @@ main {
 .flowing-right p,
 .your-users-left p {
   line-height: 20px;
-  font-weight: bold;
   opacity: 0.5;
 }
 .grow-t-right {
@@ -239,13 +237,16 @@ main {
   .grow-t-right{
     margin: auto;
   }
-  .your-users{
+  .your-users, .grow-t{
     display: flex;
     flex-direction: column-reverse;
   }
   .ready {
-    width: 84%;
-    right: 8%;
+    width: 90%;
+    right: 5%;
+  }
+  .ready h3{
+    margin-bottom: 20px;
   }
   .foot_4{
     text-align: center;
