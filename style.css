@@ -12,14 +12,14 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+h1, h2, h3{ 
+  font-family: 'Poppins', sans-serif;
+  }
+  
 .header {
   background-image: url(./images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
   padding: 0 50px 0 50px;
-}
-h1, h2, h3{
-  
-font-family: 'Poppins', sans-serif;
 }
 
 .header header {
@@ -27,7 +27,6 @@ font-family: 'Poppins', sans-serif;
   justify-content: space-between;
   /* align-items: center; */
   padding-top: 40px;
-  /* padding-left: 20px; */
 }
 .header header img {
   width: 100px;
@@ -54,7 +53,6 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
 }
 .h-left-side p {
-  /* line-height: 25px; */
   margin-bottom: 40px;
 }
 .h-left-side button,
@@ -73,7 +71,6 @@ font-family: 'Poppins', sans-serif;
 }
 main {
   margin-top: 60px;
-  /* margin-bottom: 100px; */
 }
 .flowing,
 .grow-t,
@@ -90,7 +87,6 @@ main {
 .grow-t-left,
 .flowing-right,
 .your-users-left {
-  /* width: 35%; */
   width: 36.5%;
 }
 .grow-t-left h2,
@@ -190,7 +186,7 @@ main {
 .foot_4 p{
   margin-top: 150px;
 }
-@media (max-width: 575px) {
+@media (max-width: 375px) {
   .header{
     background-image: url(./images/bg-hero-mobile.svg);
     padding: 0;
@@ -230,6 +226,13 @@ main {
   .your-users-right  {
     width: 100%;
     text-align: center;
+  }
+  .grow-t-left,
+  .flowing-right,
+  .your-users-left{
+    margin: auto;
+    padding: 0;
+    padding-bottom: 50px;
   }
   .h-left-side{
     margin-bottom: 20px;
